@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+
+body {
+	background: linear-gradient(90deg, #4383c3 40%, #30b4cb 60%);
+	background-image: url(../images/wallpapper.png);
+	*background-size: cover;
+	font-family: 'Patrick Hand', cursive;
+
+}
+.play {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.play img {
+	width: 100px;
+	cursor: pointer;
+	margin-right: 200px;
+}
+.play img:active {
+	transform: scale(0.8);
+}
+.foto img:active {
+	transform: scale(0.8);
+}
+.foto img {
+	height: 100px;
+	cursor: pointer;
+	padding: 50px;
+}
+.foto {
+	display: Flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 180px;
+}
+.winner p {
+	font-size: 35px;
+	text-align: center;
+	font-weight: bold;
+}
+#screen {
+	display: Flex;
+	justify-content: space-evenly;
+	margin-bottom: 20px;
+}
+.screen-conteiner {
+	color: rgb(44, 44, 44);
+	font-size: 35px;
+	font-weight: bold;
+}
+#score {
+	display: Flex;
+	justify-content: space-evenly;
+}
+.score-user,
+.score-computer,
+.score-tie {
+	color: black;
+	font-size: 35px;
+	font-weight: bold;
+	margin: 0 20px;
+}
+.winner {
+	display: Flex;
+	height: 270px;
+	justify-content: center;
+	align-items: center;
+}
+.icon-user {
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 254px;
+	width: 500px;
+	background-size: 200px 200px;
+}
+.icon-pc {
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 254px;
+	width: 500px;
+	background-size: 200px 200px;
+}
+.rock-user {
+	background-image: url(../images/rock.png);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+.rock-pc {
+	background-image: url(../images/rock.png);
+}
+.papper-user {
+	background-image: url(../images/papper.png);
+	height: 354px;
+}
+.papper-pc {
+	background-image: url(../images/papper.png);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	height: 354px;
+}
+.scissors-user {
+	background-image: url(../images/scissors.png);
+}
+.scissors-pc {
+	background-image: url(../images/scissors.png);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+.play p {
+	font-size: 25px;
+	margin-right: 200px;
+}
+.name-a {
+	padding: 15px 0 0 15px;
+}
+.name-b {
+	padding: 15px 15px 0 0;
+}
+::placeholder {
+	color: rgba(27, 27, 27, 0.548);
+	font-family: 'Patrick Hand', cursive;
+
+	
+  }
+.name-player {
+	background: url(../images/sign.png);
+    height: 107px;
+    width: 231px;
+    background-size: 231px 107px;
+    border: none;
+    font-size: 21px;
+    text-align: center;
+}
+.win-result {
+	background-image: url(../images/win.png);
+	height: 300px;
+	background-size: 600px 600px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.lose-result {
+	background-image: url(../images/lose.png);
+	height: 400px;
+	background-size: 600px 600px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.draw-result {
+	background-image: url(../images/draw.png);
+	height: 400px;
+	background-size: 400px 300px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.result-player {
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+}
+.male {
+	background-image: url(../images/male.png);
+    margin-top: 30px;
+    margin-top: 13px;
+    height: 125px;
+    width: 113px;
+    display: Flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-size: 130px 104px;
+    font-size: 27px;
+    font-weight: bold;
+	background-repeat: no-repeat;
+	position: relative;
+
+}
+.female {
+	background-image: url(../images/female.png);
+	margin-top: 30px;
+    margin-top: 13px;
+    height: 125px;
+    width: 113px;
+    display: Flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-size: 130px 104px;
+    font-size: 27px;
+    font-weight: bold;
+    background-repeat: no-repeat;
+}
+.active, .male-active:active {
+	transform: scale(0.8)
+}
+
+.male-active:hover{
+
+}
+.hovver-left {
+	background-image: url(../images/robotBOY.png);
+	height: 200px;
+	width: 200px;
+	background-size: 200px 200px;
+	display: none;
+}
+.hovver-right {
+	background-image: url(../images/robotGirl.png);
+	height: 200px;
+	width: 200px;
+	background-size: 200px 200px;
+	display: none;
+}
+.male-female {
+	display: flex;
+}
+.robot-computer {
+	background-image: url(../images/computer.png);
+	height: 200px;
+	background-size: 200px 200px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 200px;
+}
+.boy-user {
+	background-image: url(../images/robotBOY.png);
+	height: 200px;
+	background-size: 200px 200px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 200px;
+}
+.girl-user {
+	background-image: url(../images/robotGirl.png);
+	height: 200px;
+	background-size: 200px 200px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 200px;
+}
+.speech-bubble {
+	position: relative;
+    background: #f8e1728c;
+    border-radius: 20px;
+    width: 223px;
+    height: 115px;
+    font-size: 23px;
+    display: Flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid;
+}
+.speech-bubble:after {
+	content: '';
+    position: absolute;
+    bottom: 0;
+    left: 63%;
+    width: 0;
+    height: 0;
+    border: 21px solid #dfcece00;
+    border-top-color: #000000;
+    border-bottom: 0;
+    margin-left: -30px;
+    margin-bottom: -21px;
+    border: solid 2p;
+}
+#male-female-conteiner{
+	display:flex;
+	
+		
+
+
+
+		
+	
+}
+input{
+	font-family: 'Patrick Hand', cursive;
+
+}
+
+.line1{
+	width: 50px;
+		background: crimson;
+		height: 6px;
+		border-radius: 10px;
+		position: absolute;
+		bottom: 33px;
+	}
+	
+	.line2{
+	width: 50px;
+		background: crimson;
+		height: 6px;
+		border-radius: 10px;
+		position: absolute;
+		bottom: 33px;
+		left: 10px;
+	}

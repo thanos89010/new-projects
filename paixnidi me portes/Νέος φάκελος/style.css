@@ -1,0 +1,88 @@
+body {
+  background-color: #010165;
+  margin: 0px;
+}
+#door1,#door2,#door3{
+  cursor:pointer;
+  padding:10px;
+}
+.header{
+  background-color:#00ffff;
+  text-align: center;
+  
+}
+
+
+.title-row{
+  margin-top: 42px;
+  margin-bottom:24px;
+  text-align:center;
+}
+.instructions-title{
+  display:inline-block;
+  padding:0 10px;
+  font-size:18px;
+  color:#00ffff;
+  font-family:"Work Sans";
+}
+.instructions-row{
+  margin:0 auto;
+  width:400px;
+}
+
+.instructions-number {
+padding-right:25px;
+font-family : ‘Work Sans’;
+font-size : 36px;
+color : #00ffff;
+
+}
+.instructions-text{
+ padding : 10px;
+font-family : ‘Work Sans’;
+font-size : 20px;
+color : #ffffff;
+
+}
+.door-row{
+  text-align:center;
+}
+.start-row{
+  margin:auto;
+  width:120px;
+  height:43px;
+  font-family:"Work Sans";
+  background-color: #eb6536;
+  padding-top:18px;
+  font-size:18px;
+  text-align:center;
+  color: #010165;
+  margin-bottom:21px;
+  cursor:pointer;
+
+}
+#squre-score,.rank{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.asd{
+  background-color: #ffffff;
+  height: 69px;
+  width: 65px;
+  padding: 0  15px;
+  margin: 20px;
+  color: black;
+  font-size:40px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rank p{
+font-size:22px;
+margin: 0 20px;
+font-weight: bold;
+color:wheat;
+padding-left: 20px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="play ">
+        <div class="male-female">
+            <div class="name-user name-a "><input class="name-player" id="player0" type="text"
+                    placeholder="give your name">
+            </div>
+            <div id="male-female-conteiner">
+                <div class="male male-active" onclick="robot('male')"><div class="maleLine"></div></div>
+                 <div class="female male-active" onclick="robot('female')"><div class="femaleLine"></div></div>
+               
+            </div>
+        </div>
+        <p></p>
+        <img class="img-play " onclick="playGame()"" src=" images/play-151523_960_720.png" alt="" srcset="">
+        <div class="name-user name-b"><input class="name-player " id="player1" placeholder="give your name" type="text">
+        </div>
+    </div>
+    <div class="hovver-left"></div>
+    <div class="hovver-right"></div>
+    <section>
+        <div id="screen">
+            <div class="screen-conteiner">Win</div>
+            <div class="screen-conteiner">Tie</div>
+            <div class="screen-conteiner">Win</div>
+        </div>
+        <div id="score">
+            <div class="score-user">0</div>
+            <div class="score-tie">0</div>
+            <div class="score-computer">0</div>
+        </div>
+        <div class="winner">
+            <div class="speech-bubble-user speech-bubble"></div>
+            <div class="icon-user"></div>
+            <p></p>
+            <div class="icon-pc"></div>
+            <div class="speech-bubble-computer speech-bubble"></div>
+        </div>
+        <div class="foto">
+            <div class="robot-user"></div>
+            <div id="rock" onclick="user('rock')"><img src="images/rock.png" alt=""></div>
+            <div id="paper" onclick="user('paper')"><img src="images/papper.png" alt=""></div>
+            <div id="scissors" onclick="user('scissors')"><img src="images/scissors.png" alt=""></div>
+            <div class="robot-computer"></div>
+        </div>
+    </section>
+    <div class="result">
+        <div class="img-result"></div>
+        <p class="result-player"></p>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+
+</body>
+
+</html>
